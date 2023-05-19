@@ -118,3 +118,102 @@ nav.nav-bar a::after {
     font-size: 20px;
     cursor: pointer;
 }
+
+
+
+
+
+/*---------------------------------*/
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+    span {
+        font-size: 40px;
+        margin-left: -100px;
+    }
+
+    main {
+        background-image: url('../imagens/imagem-lencois.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    nav.nav-bar {
+
+        margin-left: -100px;
+        display: flex;
+        gap: 4rem;
+    
+        font-size: 20px;
+        font-weight: 600;
+    
+        cursor: pointer;
+        align-items: center;
+    
+    }
+    
+    
+    div.titulo-lencois-maranhenses {
+
+        position: relative;
+        color: #fff;
+
+        margin: 0 100px 0 100px;
+        text-align: center;
+
+        top: 50%;
+    }
+
+    .titulo-lencois-maranhenses h1 {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+/*---------------------------------------*/
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    span {
+        font-size: 35px;
+    }
+
+    nav.nav-bar {
+
+        margin-left: -100px;
+        display: flex;
+        gap: 4rem;
+    
+        font-size: 20px;
+        font-weight: 600;
+    
+        cursor: pointer;
+        align-items: center;
+    
+    }
+
+    div.titulo-lencois-maranhenses {
+
+        position: relative;
+        color: #fff;
+
+        margin: 0 100px 0 100px;
+        text-align: center;
+
+        top: 50%;
+    }
+
+    .titulo-lencois-maranhenses h1 {
+        font-size: 50px;
+    }
+} 
