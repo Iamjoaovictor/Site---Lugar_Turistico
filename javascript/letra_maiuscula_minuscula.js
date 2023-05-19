@@ -1,5 +1,6 @@
 
 
+
 // Aumentar o tamanho da fonte
 function aumentarFonte() {
     var elementosTexto = document.getElementsByClassName('geral');
