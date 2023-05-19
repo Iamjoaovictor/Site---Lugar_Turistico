@@ -185,9 +185,80 @@ h2 {
 #imagem-santo-amaro {
     margin-bottom: 40px;
     margin-right: 60px;
-    width: 65%;
+    width: 35%;
     height: 420px;
     border-radius: 50%;
     box-shadow: 2px 2px 23px 2px #161623;
 }
 
+
+
+
+
+/*---------------------------------*/
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    span {
+        font-size: 35px;
+        color: #fff;
+    }
+    
+    
+    nav.nav-bar {
+
+        display: flex;
+        gap: 3rem;
+
+        font-size: 21px;
+        font-weight: 600;
+
+        cursor: pointer;
+        align-items: center;
+
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .imagem-e-paragrafo-1 {
+        margin-left: -30px;
+    }
+
+    .imagem-e-paragrafo-1 > p {
+        font-size: 20px;
+        padding-top: 100px;
+    }
+}
+
+
+
+/*-------------------------------------*/
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    span {
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    #imagem-barreirinhas, #imagem-atins, #imagem-santo-amaro {
+        width: 40%;
+    }
+
+    .imagem-e-paragrafo-3 {
+        margin-top: 5%;
+    }
+
+    #h2-santo-amaro {
+        margin-top: 60%;
+    }
+  
+}
